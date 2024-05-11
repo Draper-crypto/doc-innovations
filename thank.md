@@ -39,3 +39,7 @@ title: 致谢
 # 联系我们
 
 - 邮箱：[johntao2004@outlook.com](mailto:johntao2004@outlook.com)
+
+::: tip
+&emsp;&emsp;**我们仍在招募审核人员如有意向，请联系我们。**
+:::
