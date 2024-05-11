@@ -120,7 +120,7 @@ export default defineConfig({
 
     algolia: {
       appId: "IQ2FXJWCCQ",
-      apiKey: "5122CBA4154234302717e3471e78d430",
+      apiKey: "b3eb24df784c097bd7659d843d1d8b0c",
       indexName: "docsearch",
       // searchParameters: {
       //   facetFilters: ["tags:en"],
