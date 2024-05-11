@@ -11,10 +11,10 @@ import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 const commitRef = process.env.COMMIT_REF?.slice(0, 8) || "dev";
 
-const ogDescription = "一个简洁、美丽的hexo主题";
-const ogImage = "https://docs.anheyu.com/cover.jpg";
-const ogTitle = "安知鱼主题";
-const ogUrl = "https://docs.anheyu.com";
+const ogDescription = "将比赛从看懂到看开";
+const ogImage = "https://doc.orionai.top/cover.jpg";
+const ogTitle = "创赛全视角";
+const ogUrl = "https://doc.orionai.top";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -29,22 +29,22 @@ export default defineConfig({
     ["meta", { property: "og:url", content: ogUrl }],
     ["meta", { property: "og:description", content: ogDescription }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["meta", { name: "twitter:site", content: "@anzhiyu" }],
+    ["meta", { name: "twitter:site", content: "@cryptodraper1" }],
     ["meta", { name: "theme-color", content: "#646cff" }],
     // 添加百度统计代码
-    [
-      "script",
-      {},
-      `
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?bfb308357e73d7e9c856af04a77e822d";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-       `,
-    ],
+    // [
+    //   "script",
+    //   {},
+    //   `
+    //   var _hmt = _hmt || [];
+    //   (function() {
+    //     var hm = document.createElement("script");
+    //     hm.src = "https://hm.baidu.com/hm.js?bfb308357e73d7e9c856af04a77e822d";
+    //     var s = document.getElementsByTagName("script")[0]; 
+    //     s.parentNode.insertBefore(hm, s);
+    //   })();
+    //    `,
+    // ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -119,9 +119,9 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/Draper-crypto" }],
 
     algolia: {
-      appId: "CITURDDECN",
-      apiKey: "e5c83518b67da17a254574c31759596b",
-      indexName: "anheyu",
+      appId: "IQ2FXJWCCQ",
+      apiKey: "5122CBA4154234302717e3471e78d430",
+      indexName: "docsearch",
       // searchParameters: {
       //   facetFilters: ["tags:en"],
       // },
