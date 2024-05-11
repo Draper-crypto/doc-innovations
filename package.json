@@ -1,17 +1,15 @@
 {
-  "name": "vite",
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "vitepress": "1.0.0-rc.4",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.1.0"
+    "@types/node": "^20.6.3",
+    "vitepress-plugin-tabs": "^0.3.0"
   }
 }
