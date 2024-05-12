@@ -10,11 +10,11 @@ hero:
   text: "将比赛从看懂到看开"
   tagline: 看开创新创业大赛这一篇就够了
   actions:
-    - theme: brand
-      text: 起步
-      link: /intro
     - theme: alt
-      text: 简介
+      text: 创赛简介
+      link: /intro
+    - theme: brand
+      text: 快速上手
       link: /intro
     # - theme: alt
     #   text: QQ 群

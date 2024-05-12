@@ -57,7 +57,7 @@ export default defineConfig({
             text: "怎么写？",
             collapsed: false,
             items: [
-              { text: "00-项目概述", link: "/proposal/00" },
+              { text: "00-参赛承诺和声明", link: "/proposal/00" },
               { text: "01-项目概述", link: "/proposal/01" },
               { text: "02-产品介绍", link: "/proposal/02" },
               { text: "03-技术优势", link: "/proposal/03" },
