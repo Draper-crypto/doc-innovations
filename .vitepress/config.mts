@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
+import { ImagePlugin } from './plugins/markdown/image'
 
 const commitRef = process.env.COMMIT_REF?.slice(0, 8) || "dev";
 
@@ -38,6 +39,7 @@ export default defineConfig({
     //    `,
     // ],
   ],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "作者博客", link: "https://blog.johntao.top/" }],
@@ -55,7 +57,7 @@ export default defineConfig({
             text: "怎么写？",
             collapsed: false,
             items: [
-              { text: "00-参赛承诺和声明", link: "/proposal/00" },
+              { text: "00-项目概述", link: "/proposal/00" },
               { text: "01-项目概述", link: "/proposal/01" },
               { text: "02-产品介绍", link: "/proposal/02" },
               { text: "03-技术优势", link: "/proposal/03" },
@@ -143,10 +145,11 @@ export default defineConfig({
     },
   },
   lastUpdated: true,
+  // 自定义MarkDown图片渲染插件
   markdown: {
     lineNumbers: true,
-    config(md) {
-      md.use(tabsMarkdownPlugin);
+    config: (md) => {
+      md.use(ImagePlugin) 
     },
   },
   locales: {
