@@ -142,7 +142,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/anzhiyu-c/anzhiyu-docs/edit/main/:path",
+      pattern: "https://github.com/Draper-crypto/doc-innovations/edit/main/:path",
       text: "Edit this page on GitHub",
     },
   },
