@@ -107,8 +107,10 @@ export default defineConfig({
           },
         ],
       },
-      { text: "常见问题 📖", link: "/FAQ" },
-      { text: "致谢", link: "/thank" },
+      { text: "常见问题 📖", link: "/page/FAQ" },
+      { text: "致谢", link: "/page/thank" },
+      { text: "版权与免责", link: "/page/copyright" },
+      { text: "后记", link: "/page/epilogue" },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/Draper-crypto" }],
@@ -135,8 +137,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: `Released under the MIT License. (${commitRef})`,
-      copyright: "Copyright © 2023 John Tao",
+      message: `This work is licensed under CC BY-NC-ND 4.0 <br/>To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">here</a>`,
+      copyright: "Copyright © 2024 by John Tao",
     },
 
     editLink: {
