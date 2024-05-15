@@ -42,7 +42,10 @@ export default defineConfig({
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "作者博客", link: "https://blog.johntao.top/" }],
+    nav: [
+    { text: "官方网站", link: "https://www.orionai.top/" },
+    { text: "版权与免责", link: "/page/copyright" }
+    ],
 
     sidebar: [
       {
