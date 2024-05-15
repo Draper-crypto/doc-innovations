@@ -11,11 +11,11 @@ hero:
   tagline: 看开创新创业大赛这一篇就够了
   actions:
     - theme: alt
-      text: 创赛简介
+      text: 我没有经验，先了解
       link: /intro
     - theme: brand
-      text: 快速上手
-      link: /intro
+      text: 我有经验，直接上手
+      link: /proposal/start
     # - theme: alt
     #   text: QQ 群
     #   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tYzr4BpaSI74uSRDmiPtzWmmqyibMFdY

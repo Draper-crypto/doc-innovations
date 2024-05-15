@@ -52,7 +52,7 @@ export default defineConfig({
       {
         text: "项目计划书 💻",
         items: [
-          { text: "概述", link: "/proposal/start" },
+          { text: "序", link: "/proposal/start" },
           {
             text: "怎么写？",
             collapsed: false,
