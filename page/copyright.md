@@ -2,11 +2,11 @@
 title: 版权与免责
 ---
 
-## 版权协议
+# 版权协议
 
-> 更新日期：2024-05-12
+> 更新日期：2024年05月15日
 
-&emsp;&emsp;本作品由 John Tao 创作，本作品受《创作共用许可证》（Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License，简称CC BY-NC-ND 4.0）保护。
+&emsp;&emsp;本作品由 **创新创业教程编写组** 共同创作，本作品受《创作共用许可证》（Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License，简称CC BY-NC-ND 4.0）保护。
 
 ### 授权范围
 

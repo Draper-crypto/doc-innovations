@@ -140,8 +140,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: `This work is licensed under CC BY-NC-ND 4.0 <br/>To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">here</a>`,
-      copyright: "Copyright © 2024 by John Tao",
+      message: `licensed under CC BY-NC-ND 4.0 | <a href="/page/copyright">Copyright Agreement and Disclaimer</a>`,
+      copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team",
     },
 
     editLink: {
