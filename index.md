@@ -16,12 +16,6 @@ hero:
     - theme: brand
       text: 我有经验，直接上手
       link: /proposal/start
-    # - theme: alt
-    #   text: QQ 群
-    #   link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tYzr4BpaSI74uSRDmiPtzWmmqyibMFdY
-    # - theme: alt
-    #   text: GitHub
-    #   link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
   image:
     src: /cover.png
     alt: 创赛全视角
@@ -46,4 +40,3 @@ features:
     title: 可持续
     details: 跟进最新比赛趋势，适应快速变化
 ---
-

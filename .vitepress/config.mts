@@ -30,7 +30,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "官方网站", link: "https://www.orionai.top/" },
-      { text: "版权与免责", link: "/page/copyright" }
+      {
+        text: '前往',
+        items: [
+          {
+            // 该部分的标题
+            // text: 'Section A Title',
+            items: [
+              { text: '版权与免责', link: '/page/copyright' },
+              { text: '更新日志', link: '/page/log' }
+            ]
+          }
+        ]
+      },
     ],
 
     sidebar: [
