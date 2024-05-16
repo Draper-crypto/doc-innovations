@@ -24,27 +24,13 @@ export default defineConfig({
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:site", content: "@cryptodraper1" }],
     ["meta", { name: "theme-color", content: "#646cff" }],
-    // 添加百度统计代码
-    // [
-    //   "script",
-    //   {},
-    //   `
-    //   var _hmt = _hmt || [];
-    //   (function() {
-    //     var hm = document.createElement("script");
-    //     hm.src = "https://hm.baidu.com/hm.js?bfb308357e73d7e9c856af04a77e822d";
-    //     var s = document.getElementsByTagName("script")[0]; 
-    //     s.parentNode.insertBefore(hm, s);
-    //   })();
-    //    `,
-    // ],
   ],
-  
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-    { text: "官方网站", link: "https://www.orionai.top/" },
-    { text: "版权与免责", link: "/page/copyright" }
+      { text: "官方网站", link: "https://www.orionai.top/" },
+      { text: "版权与免责", link: "/page/copyright" }
     ],
 
     sidebar: [
@@ -116,8 +102,8 @@ export default defineConfig({
       { text: "后记", link: "/page/epilogue" },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/Draper-crypto" }],
-    
+    // socialLinks: [{ icon: "github", link: "https://github.com/Draper-crypto" }],
+
     // 设置搜索框的样式
     search: {
       provider: "local",
@@ -144,17 +130,17 @@ export default defineConfig({
       copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team",
     },
 
-    editLink: {
-      pattern: "https://github.com/Draper-crypto/doc-innovations/edit/main/:path",
-      text: "Edit this page on GitHub",
-    },
+    // editLink: {
+    //   pattern: "https://github.com/Draper-crypto/doc-innovations/edit/main/:path",
+    //   text: "Edit this page on GitHub",
+    // },
   },
   lastUpdated: true,
-  // 自定义MarkDown图片渲染插件
   markdown: {
+    // 自定义MarkDown图片渲染插件
     lineNumbers: true,
     config: (md) => {
-      md.use(ImagePlugin) 
+      md.use(ImagePlugin)
     },
   },
   locales: {
