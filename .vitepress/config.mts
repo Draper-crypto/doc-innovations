@@ -65,7 +65,7 @@ export default defineConfig({
               { text: "04-发展规划", link: "/proposal/04" },
               { text: "05-营销策略", link: "/proposal/05" },
               { text: "06-创业团队", link: "/proposal/06" },
-              { text: "07-团队概况", link: "/proposal/07" },
+              { text: "07-财务分析", link: "/proposal/07" },
               { text: "08-合作伙伴", link: "/proposal/08" },
               { text: "09-风险及应对策略", link: "/proposal/09" },
               { text: "10-社会责任", link: "/proposal/10" },
