@@ -3,12 +3,12 @@
 layout: home
 
 title: 创赛全视角
-titleTemplate: 将比赛从看懂到看开
+titleTemplate: 从想法到实践
 
 hero:
   name: "创赛全视角"
-  text: "从看懂到看开"
-  tagline: 从想法到实践看这一篇就够了
+  text: "从想法到实践"
+  tagline: 创赛指南看这一篇就够了
   actions:
     - theme: alt
       text: 我没有经验，先了解
