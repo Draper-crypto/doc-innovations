@@ -37,7 +37,8 @@ export default defineConfig({
             // 该部分的标题
             // text: 'Section A Title',
             items: [
-              { text: '版权与免责', link: '/page/copyright' },
+              { text: '版权免责', link: '/page/copyright' },
+              { text: '资源下载', link: '/page/download' },
               { text: '更新日志', link: '/page/log' }
             ]
           }
@@ -63,7 +64,7 @@ export default defineConfig({
               { text: "02-产品介绍", link: "/proposal/02" },
               { text: "03-技术优势", link: "/proposal/03" },
               { text: "04-发展规划", link: "/proposal/04" },
-              { text: "05-营销策略", link: "/proposal/05" },
+              { text: "05-市场营销", link: "/proposal/05" },
               { text: "06-创业团队", link: "/proposal/06" },
               { text: "07-财务分析", link: "/proposal/07" },
               { text: "08-合作伙伴", link: "/proposal/08" },
@@ -138,7 +139,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: `licensed under CC BY-NC-ND 4.0 | <a href="/page/copyright">Copyright Agreement and Disclaimer</a>`,
+      message: 'licensed under CC BY-NC-ND 4.0 | <a href="/page/copyright">Copyright Agreement and Disclaimer</a>',
       copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team",
     },
 
