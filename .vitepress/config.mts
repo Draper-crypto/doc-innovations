@@ -37,9 +37,9 @@ export default defineConfig({
             // 该部分的标题
             // text: 'Section A Title',
             items: [
-              { text: '版权免责', link: '/page/copyright' },
-              { text: '资源下载', link: '/page/download' },
-              { text: '更新日志', link: '/page/log' }
+              { text: '✅ 版权免责', link: '/page/copyright' },
+              { text: '✅ 资源下载', link: '/page/download' },
+              { text: '✅ 更新日志', link: '/page/log' }
             ]
           }
         ]
@@ -110,6 +110,7 @@ export default defineConfig({
         ],
       },
       { text: "常见问题 📖", link: "/page/FAQ" },
+      { text: "常见问题 💎", link: "/page/download" },
       { text: "版权与免责", link: "/page/copyright" },
       { text: "致谢", link: "/page/thank" },
       { text: "后记", link: "/page/epilogue" },
