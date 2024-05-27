@@ -29,9 +29,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "官方网站", link: "https://www.orionai.top/" },
+      { text: "项目官网", link: "https://www.orionai.top/" },
       {
-        text: '前往',
+        text: '快速访问',
         items: [
           {
             // 该部分的标题
@@ -40,6 +40,18 @@ export default defineConfig({
               { text: '✅ 版权免责', link: '/page/copyright' },
               { text: '✅ 资源下载', link: '/page/download' },
               { text: '✅ 更新日志', link: '/page/log' }
+            ]
+          }
+        ]
+      },
+      {
+        text: '前往',
+        items: [
+          {
+            // 该部分的标题
+            // text: 'Section A Title',
+            items: [
+              { text: '✈ 网址导航', link: 'https://nav.johntao.top/' },
             ]
           }
         ]
@@ -94,17 +106,8 @@ export default defineConfig({
       {
         text: "路演",
         items: [
-          { text: "正在编写维护", link: "/page/404" },
-          {
-            text: "正在编写维护 📦",
-            collapsed: false,
-            items: [
-              { text: "正在编写维护", link: "/page/404" },
-              { text: "正在编写维护", link: "/page/404" },
-              { text: "正在编写维护", link: "/page/404" },
-              { text: "正在编写维护", link: "/page/404" },
-            ],
-          },
+          { text: "序", link: "/roadshow/start" },
+          { text: "技巧", link: "/roadshow/skill" },
         ],
       },
       { text: "📖 常见问题", link: "/page/FAQ" },
