@@ -80,15 +80,13 @@ export default defineConfig({
       {
         text: "PPT",
         items: [
-          { text: "正在编写维护", link: "/page/404" },
+          { text: "序", link: "/ppt/start" },
           {
-            text: "正在编写维护 📦",
+            text: "怎么做？",
             collapsed: false,
             items: [
-              { text: "正在编写维护", link: "/page/404" },
-              { text: "正在编写维护", link: "/page/404" },
-              { text: "正在编写维护", link: "/page/404" },
-              { text: "正在编写维护", link: "/page/404" },
+              { text: "制作规范", link: "/ppt/01" },
+              { text: "制作原则", link: "/ppt/02" },
             ],
           },
         ],
@@ -140,7 +138,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.orionai.top/">全站状态</a>',
+      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.orionai.top/" target="_blank">Website Status</a>',
       copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team",
     },
 
