@@ -27,6 +27,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    // 锚点导航
+    outline: {
+      level: [2, 6],
+      label: '目录'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "项目官网", link: "https://www.orionai.top/" },
@@ -141,7 +147,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.orionai.top/" target="_blank">Website Status</a>',
+      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.orionai.top/" target="_blank">Website Status</a> | <a href="https://f.wps.cn/g/LP0ERIdR/" target="_blank">Feedback</a>',
       copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team",
     },
 
