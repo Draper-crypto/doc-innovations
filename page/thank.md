@@ -12,7 +12,7 @@ title: 致谢
 
 &emsp;&emsp;特别感谢 [@ 🐑](#) 、[@ Hamburg](#)、[@ 3.18](#)、[@ 鼬的泪沟](#)、[@ 管芒花](#) (排名不分先后)参与对本文档的审阅。
 
-&emsp;&emsp;感谢 [奥瑞星深度思维实验室](https://www.orionai.top) 所有团队成员对本项目提供的帮助。
+&emsp;&emsp;感谢 [宏翔商道（南京）科技发展有限公司](https://www.elexvx.com)（原奥瑞星深度思维实验室） 所有团队成员对本项目提供的帮助。
 
 &emsp;&emsp;感谢所有的家人、友商、合作伙伴对本项目提供的帮助。
 
@@ -43,5 +43,5 @@ title: 致谢
 
 # 联系我们
 
-- 邮箱：[johntao2004@outlook.com](mailto:johntao2004@outlook.com)
-- 微信公众号：宏翔商道
+- 邮箱：[elexvx@gmail.com](mailto:elexvx@gmail.com)
+- 企业微信公众号：宏翔商道
