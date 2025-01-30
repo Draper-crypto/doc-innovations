@@ -5,7 +5,7 @@ import { ImagePlugin } from './plugins/markdown/image'
 const commitRef = process.env.COMMIT_REF?.slice(0, 8) || "dev";
 
 const ogDescription = "从想法到实践";
-const ogImage = "https://doc.orionai.top/cover.jpg";
+const ogImage = "https://doc.elexvx.comcover.jpg";
 const ogTitle = "创赛全视角";
 const ogUrl = "https://doc.orionai.top";
 
@@ -35,7 +35,7 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "项目官网", link: "https://www.orionai.top/" },
+      { text: "企业官网", link: "https://www.elexvx.com/" },
       {
         text: '快速访问',
         items: [
@@ -57,7 +57,7 @@ export default defineConfig({
             // 该部分的标题
             // text: 'Section A Title',
             items: [
-              { text: '✈ 网址导航', link: 'https://nav.johntao.top/' },
+              { text: '✈ 网址导航', link: 'https://nav.elexvx.com/' },
             ]
           }
         ]
@@ -147,8 +147,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.orionai.top/" target="_blank">Website Status</a> | <a href="https://f.wps.cn/g/LP0ERIdR/" target="_blank">Feedback</a>',
-      copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team",
+      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.elexvx.com" target="_blank">Website Status</a> | <a href="https://f.wps.cn/g/LP0ERIdR/" target="_blank">Feedback</a>',
+      copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team 现由宏翔商道（南京）科技发展有限公司运营与管理",
     },
 
     // editLink: {
