@@ -45,8 +45,8 @@ title: 版权与免责
 &emsp;&emsp;本作品按 “现状” 提供，不附带任何明示或暗示的担保。在适用法律允许的最大范围内，**许可人明确不对任何由于使用作品而引起或以任何方式与作品有关的索赔、损失、责任、损害、成本或费用承担责任。**
 
 
-## 相关著作权
-<table>
+<!-- ## 相关著作权 -->
+<!-- <table>
     <tr>
         <td>
             <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/innovation/202405202315148.png" style="max-width: 100%; height: auto;">
@@ -55,4 +55,4 @@ title: 版权与免责
             <img src="https://typora-img-1301299232.cos.ap-shanghai.myqcloud.com/innovation/202405202313115.png" style="max-width: 100%; height: auto;">
         </td>
     </tr>
-</table>
+</table> -->

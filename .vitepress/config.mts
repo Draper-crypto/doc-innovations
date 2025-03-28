@@ -7,7 +7,7 @@ const commitRef = process.env.COMMIT_REF?.slice(0, 8) || "dev";
 const ogDescription = "从想法到实践";
 const ogImage = "https://doc.elexvx.comcover.jpg";
 const ogTitle = "创赛全视角";
-const ogUrl = "https://doc.orionai.top";
+const ogUrl = "https://docs.elexvx.com/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,7 +22,6 @@ export default defineConfig({
     ["meta", { property: "og:url", content: ogUrl }],
     ["meta", { property: "og:description", content: ogDescription }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["meta", { name: "twitter:site", content: "@cryptodraper1" }],
     ["meta", { name: "theme-color", content: "#646cff" }],
   ],
 
@@ -50,18 +49,18 @@ export default defineConfig({
           }
         ]
       },
-      {
-        text: '前往',
-        items: [
-          {
-            // 该部分的标题
-            // text: 'Section A Title',
-            items: [
-              { text: '✈ 网址导航', link: 'https://nav.elexvx.com/' },
-            ]
-          }
-        ]
-      },
+      // {
+      //   text: '前往',
+      //   items: [
+      //     {
+      //       // 该部分的标题
+      //       // text: 'Section A Title',
+      //       items: [
+      //         { text: '✈ 网址导航', link: 'https://nav.elexvx.com/' },
+      //       ]
+      //     }
+      //   ]
+      // },
     ],
 
     sidebar: [
@@ -147,8 +146,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.elexvx.com" target="_blank">Website Status</a> | <a href="https://f.wps.cn/g/LP0ERIdR/" target="_blank">Feedback</a>',
-      copyright: "Copyright © 2024 By Innovation and Entrepreneurship Tutorial Writing Team 现由宏翔商道（南京）科技发展有限公司运营与管理",
+      message: 'Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> | <a href="/page/copyright">Copyright Agreement and Disclaimer</a> | <a href="https://status.elexvx.com" target="_blank">Website Status</a> ',
+      copyright: "Copyright © 2024 编写组 | 现由宏翔商道（南京）科技发展有限公司运营与管理",
     },
 
     // editLink: {
